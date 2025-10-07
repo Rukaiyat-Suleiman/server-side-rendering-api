@@ -1,0 +1,31 @@
+{
+  "name": "server-side-rendering-api",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Rukaiyat-Suleiman/server-side-rendering-api#readme",
+  "bugs": {
+    "url": "https://github.com/Rukaiyat-Suleiman/server-side-rendering-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rukaiyat-Suleiman/server-side-rendering-api.git"
+  },
+  "license": "MIT",
+  "author": "Ruki",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-web": "cd web-server && node server.js",
+    "start-api": "cd api-server && node server.js",
+    "dev-web": "nodemon web-server/server.js",
+    "dev-api": "nodemon api-server/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
